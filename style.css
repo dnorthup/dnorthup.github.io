@@ -79,3 +79,7 @@ footer{
 	font-family: helvetica, sans-serif;
 	line-height: 1.5;
 }
+
+title {
+    display: none;
+}
