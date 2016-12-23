@@ -80,7 +80,10 @@ footer{
 	text-align:center;
 	font-family: helvetica, sans-serif;
 	line-height: 1.5;
-    width: auto;
+    text-align: center;
+    margin-left: auto;
+	margin-right: auto;
+    width: 99%;
     position: absolute;
     bottom: 0;
 }
