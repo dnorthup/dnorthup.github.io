@@ -82,8 +82,8 @@ nav{
 	line-height: 1.5;
     text-align: center;
     width: 100%;
-    position: relative;
-    top: auto;
+    position: absolute;
+    top: 14px;
     left: 0;
 }
 
