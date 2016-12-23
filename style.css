@@ -1,5 +1,5 @@
 body{
-	background-color: #00000;
+	background-color: #FFFFFF;
 	margin-left: auto;
 	margin-right: auto;
 	width: 600px;
@@ -9,19 +9,20 @@ body{
 h1{
 	text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 	font-weight: 500;
-	color: #000000;
+	color: #212121;
 	letter-spacing: 3pt;
 	word-spacing: 6pt;
 	font-size: 42px;
 	text-align:center;
 	font-family: helvetica, sans-serif;
 	line-height: 2;
+    
 }
 
 h2{
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 	font-weight: normal;
-	color: #000000;
+	color: #212121;
 	letter-spacing: 3pt;
 	word-spacing: 6pt;
 	font-size: 22px;
@@ -33,7 +34,7 @@ h2{
 p{
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 	font-weight: normal;
-	color: #000000;
+	color: #757575;
 	letter-spacing: 2pt;
 	word-spacing: 4pt;
 	font-size: 12px;
@@ -44,25 +45,25 @@ p{
 
 
 a:link {
-    color: seagreen;
+    color: #FF4081;
     text-decoration: none;
 }
 a:visited {
-    color: seagreen;
+    color: #FF4081;
     text-decoration: none;
 }
 a:hover {
-    color: hotpink;
+    color: #B2DFDB;
     text-decoration: none;
 }
 a:active {
-    color: fuchsia;
+    color: #B2DFDB;
     text-decoration: none;
 }
 
 
 hr{
-	color: #ffffff;
+	color: #BDBDBD;
 	background: #ffffff;
 	width: 90%;
 	height: 1px;
@@ -71,7 +72,8 @@ hr{
 footer{
     text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 	font-weight: 200;
-	color: #000000;
+    background-color: #B2DFDB;
+	color: #757575;
 	letter-spacing: 2pt;
 	word-spacing: 4pt;
 	font-size: 12px;
@@ -80,8 +82,4 @@ footer{
 	line-height: 1.5;
     position: absolute;
     bottom: 0;
-}
-
-title {
-    display: none;
 }
