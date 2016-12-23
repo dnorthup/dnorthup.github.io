@@ -82,7 +82,7 @@ nav{
 	line-height: 1.5;
     text-align: center;
     width: 100%;
-    position: absolute;
+    position: relative;
     top: auto;
     left: 0;
 }
