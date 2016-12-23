@@ -78,6 +78,8 @@ footer{
 	text-align:center;
 	font-family: helvetica, sans-serif;
 	line-height: 1.5;
+    position: absolute;
+    bottom: 0;
 }
 
 title {
