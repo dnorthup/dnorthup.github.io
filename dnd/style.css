@@ -1,5 +1,5 @@
 body{
-	background-color: #FFFFFF;
+	background-color: #FAF2ED;
 	margin-left: auto;
 	margin-right: auto;
 	width: 600px;
@@ -135,7 +135,7 @@ footer{
 	line-height: 1.5;
     text-align: center;
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
 }
