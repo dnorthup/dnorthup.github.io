@@ -1,0 +1,141 @@
+body{
+	background-color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	text-align: center;
+}
+
+h1{
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+	font-weight: 500;
+	color: #212121;
+	letter-spacing: 3pt;
+	word-spacing: 6pt;
+	font-size: 42px;
+	text-align:center;
+	font-family: helvetica, sans-serif;
+	line-height: 2;
+    
+}
+
+h2{
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	font-weight: normal;
+	color: #212121;
+	letter-spacing: 3pt;
+	word-spacing: 6pt;
+	font-size: 22px;
+	text-align:center;
+	font-family: helvetica, sans-serif;
+	line-height: 1;
+}
+
+p{
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	font-weight: normal;
+	color: #757575;
+	letter-spacing: 2pt;
+	word-spacing: 4pt;
+	font-size: 12px;
+	text-align:center;
+	font-family: helvetica, sans-serif;
+	line-height: 1.5;
+}
+
+
+a:link {
+    color: #FF4081;
+    text-decoration: none;
+}
+a:visited {
+    color: #FF4081;
+    text-decoration: none;
+}
+a:hover {
+    color: #B2DFDB;
+    text-decoration: none;
+}
+a:active {
+    color: #B2DFDB;
+    text-decoration: none;
+}
+
+
+hr{
+	color: #BDBDBD;
+	background: #ffffff;
+	width: 100%;
+	height: 1px;
+}
+
+nav{
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	font-weight: normal;
+    background-color: #009688;
+	color: #212121;
+	letter-spacing: 2pt;
+	word-spacing: 4pt;
+	font-size: 12px;
+	text-align:center;
+	font-family: helvetica, sans-serif;
+	line-height: 1.5;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+article{
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	font-weight: normal;
+	letter-spacing: 2pt;
+	word-spacing: 4pt;
+	font-size: 12px;
+	text-align:center;
+	font-family: helvetica, sans-serif;
+	line-height: 1.5;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 260px;
+    left: 0;
+}
+
+header{
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	font-weight: normal;
+    background-color: #00796B;
+	color: #212121;
+	letter-spacing: 2pt;
+	word-spacing: 4pt;
+	font-size: 12px;
+	text-align:right;
+	font-family: helvetica, sans-serif;
+	line-height: 1.5;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+footer{
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	font-weight: 200;
+    background-color: #B2DFDB;
+	color: #757575;
+	letter-spacing: 2pt;
+	word-spacing: 4pt;
+	font-size: 12px;
+	text-align:center;
+	font-family: helvetica, sans-serif;
+	line-height: 1.5;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
