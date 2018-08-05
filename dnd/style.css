@@ -44,6 +44,11 @@ p{
     padding: 50px;
 }
 
+sub { 
+    vertical-align: sub;
+    font-size: smaller;
+}
+
 
 a:link {
     color: #FF4081;
