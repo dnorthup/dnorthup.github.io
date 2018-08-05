@@ -47,6 +47,9 @@ p{
 sub { 
     vertical-align: sub;
     font-size: smaller;
+    color: #40373D;
+    background-color: #FAF2ED;
+    padding: 5px;
 }
 
 
