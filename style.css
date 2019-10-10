@@ -1,5 +1,5 @@
 body{
-	background-color: #282728;
+	background-color: #485665;
 	margin-left: auto;
 	margin-right: auto;
 	width: 600px;
@@ -34,7 +34,7 @@ h2{
 p{
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 	font-weight: normal;
-	color: #757575;
+	color: #f7a8b8;
 	letter-spacing: 2pt;
 	word-spacing: 4pt;
 	font-size: 12px;
@@ -45,19 +45,19 @@ p{
 
 
 a:link {
-    color: #FF4081;
+    color: #55cdfc;
     text-decoration: none;
 }
 a:visited {
-    color: #FF4081;
+    color: #55cdfc;
     text-decoration: none;
 }
 a:hover {
-    color: #B2DFDB;
+    color: #f7a8b8;
     text-decoration: none;
 }
 a:active {
-    color: #B2DFDB;
+    color: #f7a8b8;
     text-decoration: none;
 }
 
@@ -77,6 +77,13 @@ a:active {
   padding: 10px;
 }
 
+img{
+	opacity: 1.0;
+}
+
+img:hover {
+  opacity: .5;
+}
 
 hr{
 	color: #BDBDBD;
@@ -88,7 +95,7 @@ hr{
 nav{
     text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 		font-weight: normal;
-    background-color: #009688;
+    background-color: #272d2d;
 		color: #212121;
 		letter-spacing: 2pt;
 		word-spacing: 4pt;
@@ -101,7 +108,6 @@ nav{
 		padding-top: 76px;
     position: absolute;
     top: 20px;
-
     left: 0;
 		z-index: 1;
 }
@@ -126,7 +132,7 @@ article{
 header{
     text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 		font-weight: normal;
-    background-color: #00796B;
+    background-color: rgba(85, 205, 252, 0.5);
 		color: #212121;
 		letter-spacing: 2pt;
 		word-spacing: 4pt;
@@ -144,8 +150,8 @@ header{
 footer{
     text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 		font-weight: 200;
-    background-color: #B2DFDB;
-		color: #757575;
+    background-color: #827191;
+		color: #272d2d;
 		letter-spacing: 2pt;
 		word-spacing: 4pt;
 		font-size: 12px;
