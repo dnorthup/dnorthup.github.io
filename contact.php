@@ -9,6 +9,7 @@
 
 	<title>knifepunch records</title>
 
+
 </head>
 <body>
         <!-- DARK PRIMARY COLOR START -->
@@ -46,7 +47,7 @@
 
         <a href="./store.html">Store</a> |
         <a href="./releases.html">Releases</a> |
-        <a href="./contact.html">Contact</a> |
+        <a href="./contact.php">Contact</a> |
         <a href="./about.html">About</a> |
 
         <hr>
@@ -57,7 +58,33 @@
         <article>
 
 					<h1>Contact!</h1>
-        <p>this is still a work in progress!</p>
+					<p>Currently, our webhost doesn't allow PHP code to run, so this form is inactive until we can switch providers!</p>
+					<form method="post" action="contact.php">
+
+	<label>Name</label>
+	<input name="name" placeholder="Type Here">
+
+	<label>Email</label>
+	<input name="email" type="email" placeholder="Type Here">
+
+	<label>Message</label>
+	<textarea name="message" placeholder="Type Here"></textarea>
+
+	<input id="submit" name="submit" type="submit" value="Submit">
+
+</form>
+
+<?php
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
+    $from = 'From: WEBSITE';
+    $to = 'knifepunchrecords@gmail.com';
+    $subject = 'Contact Form';
+
+		$body = "From: $name\n E-Mail: $email\n Message:\n $message";
+
+?>
 
 
 
