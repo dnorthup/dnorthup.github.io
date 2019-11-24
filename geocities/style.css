@@ -20,7 +20,7 @@ h1{
 	text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
 	font-weight: bold;
 	color: black;
-	font-size: 34px;
+	font-size: 30px;
 	text-align:center;
 	font-family: 'CustomFont', Arial, sans-serif;
 
@@ -70,12 +70,15 @@ article{
 		color: black;
 		font-weight: bold;
 		text-align:center;
+		background-color: yellow;
+		border-style: inset;
 		font-family: 'CustomFont', Arial, sans-serif;
     text-align: center;
-    width: 100%;
+    width: 500px;
+		height: 420px;
     position: absolute;
-    top: 500px;
-    left: 0;
+    top: 540px;
+    left: 35%;
 		z-index: 0;
 		display: block;
 		list-style-position: inside;
@@ -96,7 +99,7 @@ nav{
     position: absolute;
 		transform: scaleX(-1);
     bottom: 130px;
-    left: 30%;
+    left: 20%;
 }
 
 
