@@ -126,8 +126,8 @@ nav{
 		font-family:OCR A Std, monospace;
     width: 200px;
     position: absolute;
-    bottom: 25%;
-    left: 80%;
+    bottom: 20%;
+    left: 88%;
 }
 
 footer{
@@ -141,6 +141,6 @@ footer{
 		font-family:OCR A Std, monospace;
     width: 500px;
     position: absolute;
-    bottom: 30px;
-    left: 65%;
+    bottom: 5%;
+    left: 60%;
 }
